@@ -1,7 +1,6 @@
-// clases that we create should be opened for extension closed for modification
-// if we want to have new feature, we don't need to modify the old code
-
-// AreaCalculator will be extended when needed
+// Open for extension means that we should be able to add new features or components to the application without breaking existing code.
+// Closed for modification means that we should not introduce breaking changes to existing functionality,
+// because that would force you to refactor a lot of existing code
 
 class ShapeArea {
   area() {
