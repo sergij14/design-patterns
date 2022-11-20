@@ -1,3 +1,3 @@
-# JavaScript Patterns
+# JavaScript Design Patterns
 
-Practicing JavaScript patterns.
+Practicing JavaScript design patterns.
