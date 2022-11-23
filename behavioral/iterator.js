@@ -27,8 +27,20 @@ class MyIterator {
   }
 }
 
+function* generator(collection) {
+  let idx = 0;
+  while (idx < collection.length) {
+    yield collection[idx++];
+  }
+}
+
 const iterator = new MyIterator([1, 2, 3, 4, 5]);
+const gen = generator([1, 2, 3, 4, 5]);
 
 for (let item of iterator) {
+  console.log(item);
+}
+
+for (let item of gen) {
   console.log(item);
 }
